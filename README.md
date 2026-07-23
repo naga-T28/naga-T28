@@ -1,12 +1,14 @@
 <div align="center">
 
-# Hi, I'm NagaT
+<img src="./img/assets/hero.svg" width="100%" alt="NAGA-T" />
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-naga--t.jp-2E7D32?style=for-the-badge&logo=googlechrome&logoColor=white)](https://naga-t.jp)
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-naga--t.jp-5EEAD4?style=for-the-badge&logo=googlechrome&logoColor=5EEAD4&labelColor=0C1220&color=0C1220)](https://naga-t.jp)
+[![TabiSync](https://img.shields.io/badge/TABISYNC-tabisync.com-7C9CFF?style=for-the-badge&logo=googleearth&logoColor=7C9CFF&labelColor=0C1220&color=0C1220)](https://tabisync.com)
 
 </div>
 
----
 
 ## About Me
 
@@ -38,39 +40,22 @@
 
 ## Tech Stack
 
-Languages
+<div align="center">
 
-<p align="left">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <!--
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  -->
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-</p>
-Frameworks & Libraries
+**LANGUAGES**
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <!--
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  -->
-  <!-- 使用しているものに応じて追加してください（例）
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-  -->
-</p>
-Tools & Infrastructure
+<img src="https://skillicons.dev/icons?i=js,python,go&theme=dark" alt="languages" />
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <!-- 使用しているものに応じて追加してください（例）
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-  -->
-</p>
+<br>
+
+**FRAMEWORKS & LIBRARIES**
+
+<img src="https://skillicons.dev/icons?i=django,nextjs&theme=dark" alt="frameworks" />
+
+<br>
+
+**TOOLS & INFRASTRUCTURE**
+
+<img src="https://skillicons.dev/icons?i=git&theme=dark" alt="tools" />
+
+<img src="./assets/divider.svg" width="100%" alt="" />

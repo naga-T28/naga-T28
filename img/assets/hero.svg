@@ -1,0 +1,251 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="NAGA-T">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#0C1220"/>
+      <stop offset="100%" stop-color="#070B14"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5EEAD4" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#5EEAD4" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#5EEAD4" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5EEAD4" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#5EEAD4" stop-opacity="0.9"/>
+      <stop offset="80%" stop-color="#7C9CFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#7C9CFF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 H0 V40" fill="none" stroke="#5EEAD4" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="vig" cx="50%" cy="45%" r="72%">
+      <stop offset="55%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.65"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <style>
+      @keyframes tw    { 0%,100% {opacity:.1} 50% {opacity:.75} }
+      @keyframes eq    { 0%,100% {transform:scaleY(.35)} 50% {transform:scaleY(1.5)} }
+      @keyframes sweep { 0% {transform:translateY(-60px)} 100% {transform:translateY(400px)} }
+      @keyframes rev   { 0% {transform:rotate(0deg)} 100% {transform:rotate(360deg)} }
+      @keyframes rev2  { 0% {transform:rotate(360deg)} 100% {transform:rotate(0deg)} }
+      @keyframes draw  { 0% {transform:scaleX(0)} 100% {transform:scaleX(1)} }
+      @keyframes fade  { 0% {opacity:0;transform:translateY(6px)} 100% {opacity:1;transform:translateY(0)} }
+      @keyframes blink { 0%,49% {opacity:1} 50%,100% {opacity:0} }
+      .scan { animation: sweep 7s linear infinite; }
+      .r1   { animation: rev 26s linear infinite; transform-origin:1058px 168px; }
+      .r2   { animation: rev2 17s linear infinite; transform-origin:1058px 168px; }
+      .rule { animation: draw 1.6s cubic-bezier(.2,.8,.2,1) both; transform-origin:0 0; }
+      .f1   { animation: fade .9s ease-out .15s both; }
+      .f2   { animation: fade .9s ease-out .45s both; }
+      .f3   { animation: fade .9s ease-out .75s both; }
+      .cur  { animation: blink 1.1s step-end infinite; }
+      text  { font-family: "SFMono-Regular",Consolas,"Roboto Mono","DejaVu Sans Mono",monospace; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <rect width="1200" height="340" fill="url(#grid)"/>
+  <g>
+    <circle cx="1034.9" cy="141.3" r="0.5" fill="#fff" opacity="0.39" style="animation:tw 4.9s ease-in-out 1.7s infinite"/>
+    <circle cx="618.7" cy="8.1" r="1.1" fill="#fff" opacity="0.19" style="animation:tw 5.9s ease-in-out 4.0s infinite"/>
+    <circle cx="143.9" cy="43.1" r="0.7" fill="#fff" opacity="0.2" style="animation:tw 3.6s ease-in-out 4.3s infinite"/>
+    <circle cx="1036.4" cy="193.7" r="0.7" fill="#fff" opacity="0.51" style="animation:tw 3.3s ease-in-out 1.6s infinite"/>
+    <circle cx="4.9" cy="303.0" r="0.9" fill="#fff" opacity="0.41" style="animation:tw 6.0s ease-in-out 2.4s infinite"/>
+    <circle cx="885.9" cy="267.4" r="0.9" fill="#fff" opacity="0.38" style="animation:tw 5.4s ease-in-out 2.6s infinite"/>
+    <circle cx="971.4" cy="246.0" r="1.1" fill="#fff" opacity="0.23" style="animation:tw 7.9s ease-in-out 1.0s infinite"/>
+    <circle cx="338.0" cy="94.4" r="0.5" fill="#fff" opacity="0.5" style="animation:tw 6.6s ease-in-out 5.0s infinite"/>
+    <circle cx="799.1" cy="158.6" r="0.7" fill="#fff" opacity="0.33" style="animation:tw 3.5s ease-in-out 2.7s infinite"/>
+    <circle cx="652.8" cy="143.2" r="0.7" fill="#fff" opacity="0.28" style="animation:tw 4.1s ease-in-out 2.3s infinite"/>
+    <circle cx="1091.8" cy="303.0" r="0.5" fill="#fff" opacity="0.35" style="animation:tw 3.5s ease-in-out 0.1s infinite"/>
+    <circle cx="28.2" cy="188.7" r="0.7" fill="#fff" opacity="0.46" style="animation:tw 4.3s ease-in-out 4.9s infinite"/>
+    <circle cx="583.7" cy="73.9" r="1.1" fill="#fff" opacity="0.27" style="animation:tw 3.8s ease-in-out 5.0s infinite"/>
+    <circle cx="506.8" cy="170.2" r="0.5" fill="#fff" opacity="0.34" style="animation:tw 4.9s ease-in-out 0.7s infinite"/>
+    <circle cx="581.4" cy="325.1" r="0.7" fill="#fff" opacity="0.32" style="animation:tw 6.3s ease-in-out 0.7s infinite"/>
+    <circle cx="655.6" cy="51.6" r="0.5" fill="#fff" opacity="0.13" style="animation:tw 7.6s ease-in-out 5.1s infinite"/>
+    <circle cx="59.4" cy="158.2" r="0.7" fill="#fff" opacity="0.22" style="animation:tw 4.8s ease-in-out 0.9s infinite"/>
+    <circle cx="122.2" cy="156.5" r="0.5" fill="#fff" opacity="0.51" style="animation:tw 8.0s ease-in-out 1.5s infinite"/>
+    <circle cx="1161.1" cy="32.5" r="0.7" fill="#fff" opacity="0.41" style="animation:tw 5.9s ease-in-out 0.8s infinite"/>
+    <circle cx="86.2" cy="26.0" r="0.9" fill="#fff" opacity="0.47" style="animation:tw 3.1s ease-in-out 2.6s infinite"/>
+    <circle cx="223.0" cy="138.8" r="0.7" fill="#fff" opacity="0.2" style="animation:tw 7.4s ease-in-out 3.4s infinite"/>
+    <circle cx="531.1" cy="45.8" r="1.1" fill="#fff" opacity="0.16" style="animation:tw 3.6s ease-in-out 1.4s infinite"/>
+    <circle cx="1056.3" cy="170.0" r="0.5" fill="#fff" opacity="0.45" style="animation:tw 7.5s ease-in-out 3.7s infinite"/>
+    <circle cx="1057.8" cy="62.6" r="0.9" fill="#fff" opacity="0.45" style="animation:tw 3.1s ease-in-out 5.5s infinite"/>
+    <circle cx="597.4" cy="112.9" r="1.1" fill="#fff" opacity="0.36" style="animation:tw 3.8s ease-in-out 0.8s infinite"/>
+    <circle cx="171.3" cy="308.6" r="0.7" fill="#fff" opacity="0.4" style="animation:tw 4.8s ease-in-out 0.6s infinite"/>
+    <circle cx="621.6" cy="326.7" r="0.7" fill="#fff" opacity="0.45" style="animation:tw 4.1s ease-in-out 1.7s infinite"/>
+    <circle cx="359.9" cy="250.5" r="1.1" fill="#fff" opacity="0.48" style="animation:tw 5.3s ease-in-out 4.3s infinite"/>
+    <circle cx="858.7" cy="25.2" r="0.5" fill="#fff" opacity="0.55" style="animation:tw 6.3s ease-in-out 1.5s infinite"/>
+    <circle cx="168.5" cy="298.1" r="0.9" fill="#fff" opacity="0.53" style="animation:tw 6.8s ease-in-out 3.0s infinite"/>
+    <circle cx="489.9" cy="49.3" r="0.9" fill="#fff" opacity="0.35" style="animation:tw 5.9s ease-in-out 4.1s infinite"/>
+    <circle cx="555.8" cy="29.9" r="0.7" fill="#fff" opacity="0.32" style="animation:tw 4.5s ease-in-out 1.6s infinite"/>
+    <circle cx="245.2" cy="148.5" r="0.9" fill="#fff" opacity="0.34" style="animation:tw 4.2s ease-in-out 2.6s infinite"/>
+    <circle cx="145.3" cy="159.9" r="1.1" fill="#fff" opacity="0.13" style="animation:tw 3.1s ease-in-out 1.5s infinite"/>
+    <circle cx="285.6" cy="149.1" r="0.5" fill="#fff" opacity="0.26" style="animation:tw 4.9s ease-in-out 2.0s infinite"/>
+    <circle cx="166.0" cy="303.4" r="0.5" fill="#fff" opacity="0.51" style="animation:tw 6.4s ease-in-out 3.4s infinite"/>
+    <circle cx="363.1" cy="8.0" r="0.5" fill="#fff" opacity="0.24" style="animation:tw 3.4s ease-in-out 4.5s infinite"/>
+    <circle cx="453.2" cy="60.9" r="0.7" fill="#fff" opacity="0.36" style="animation:tw 3.8s ease-in-out 5.2s infinite"/>
+    <circle cx="210.3" cy="180.1" r="0.5" fill="#fff" opacity="0.42" style="animation:tw 3.4s ease-in-out 5.4s infinite"/>
+    <circle cx="1176.3" cy="35.5" r="0.5" fill="#fff" opacity="0.22" style="animation:tw 5.3s ease-in-out 5.2s infinite"/>
+    <circle cx="547.5" cy="286.6" r="1.1" fill="#fff" opacity="0.25" style="animation:tw 3.3s ease-in-out 1.2s infinite"/>
+    <circle cx="995.3" cy="309.9" r="0.7" fill="#fff" opacity="0.32" style="animation:tw 7.5s ease-in-out 0.9s infinite"/>
+    <circle cx="429.8" cy="124.2" r="0.5" fill="#fff" opacity="0.37" style="animation:tw 3.9s ease-in-out 2.7s infinite"/>
+    <circle cx="884.4" cy="111.7" r="0.9" fill="#fff" opacity="0.16" style="animation:tw 4.1s ease-in-out 0.1s infinite"/>
+    <circle cx="102.9" cy="40.7" r="0.5" fill="#fff" opacity="0.38" style="animation:tw 5.1s ease-in-out 3.3s infinite"/>
+    <circle cx="972.7" cy="156.6" r="0.9" fill="#fff" opacity="0.48" style="animation:tw 7.1s ease-in-out 5.3s infinite"/>
+    <circle cx="1184.5" cy="144.2" r="0.7" fill="#fff" opacity="0.31" style="animation:tw 7.9s ease-in-out 3.7s infinite"/>
+    <circle cx="1074.4" cy="43.8" r="1.1" fill="#fff" opacity="0.33" style="animation:tw 7.3s ease-in-out 1.9s infinite"/>
+    <circle cx="983.4" cy="329.5" r="1.1" fill="#fff" opacity="0.15" style="animation:tw 4.4s ease-in-out 5.4s infinite"/>
+    <circle cx="99.1" cy="218.9" r="0.7" fill="#fff" opacity="0.52" style="animation:tw 6.4s ease-in-out 4.1s infinite"/>
+    <circle cx="490.5" cy="312.1" r="0.9" fill="#fff" opacity="0.54" style="animation:tw 7.0s ease-in-out 2.1s infinite"/>
+    <circle cx="130.4" cy="46.3" r="1.1" fill="#fff" opacity="0.47" style="animation:tw 6.9s ease-in-out 2.6s infinite"/>
+    <circle cx="1084.3" cy="168.1" r="0.5" fill="#fff" opacity="0.4" style="animation:tw 4.3s ease-in-out 1.9s infinite"/>
+    <circle cx="479.7" cy="143.0" r="0.9" fill="#fff" opacity="0.42" style="animation:tw 4.6s ease-in-out 5.7s infinite"/>
+    <circle cx="576.1" cy="68.6" r="1.1" fill="#fff" opacity="0.46" style="animation:tw 6.7s ease-in-out 0.6s infinite"/>
+    <circle cx="925.0" cy="134.5" r="0.5" fill="#fff" opacity="0.16" style="animation:tw 6.0s ease-in-out 3.0s infinite"/>
+    <circle cx="262.1" cy="118.5" r="0.7" fill="#fff" opacity="0.46" style="animation:tw 5.1s ease-in-out 5.9s infinite"/>
+    <circle cx="298.4" cy="12.2" r="0.9" fill="#fff" opacity="0.3" style="animation:tw 7.5s ease-in-out 1.9s infinite"/>
+    <circle cx="603.7" cy="95.1" r="0.7" fill="#fff" opacity="0.34" style="animation:tw 3.3s ease-in-out 4.2s infinite"/>
+    <circle cx="178.1" cy="117.0" r="0.9" fill="#fff" opacity="0.23" style="animation:tw 7.3s ease-in-out 0.2s infinite"/>
+    <circle cx="217.9" cy="120.4" r="1.1" fill="#fff" opacity="0.19" style="animation:tw 6.8s ease-in-out 0.6s infinite"/>
+    <circle cx="917.5" cy="331.9" r="0.7" fill="#fff" opacity="0.41" style="animation:tw 5.3s ease-in-out 0.5s infinite"/>
+    <circle cx="844.4" cy="20.1" r="0.7" fill="#fff" opacity="0.48" style="animation:tw 7.6s ease-in-out 4.6s infinite"/>
+    <circle cx="590.3" cy="231.8" r="0.5" fill="#fff" opacity="0.47" style="animation:tw 5.1s ease-in-out 3.3s infinite"/>
+    <circle cx="711.2" cy="312.7" r="0.5" fill="#fff" opacity="0.49" style="animation:tw 7.8s ease-in-out 0.1s infinite"/>
+    <circle cx="537.9" cy="183.4" r="0.9" fill="#fff" opacity="0.23" style="animation:tw 4.3s ease-in-out 0.9s infinite"/>
+    <circle cx="493.0" cy="300.8" r="1.1" fill="#fff" opacity="0.44" style="animation:tw 6.2s ease-in-out 2.2s infinite"/>
+    <circle cx="604.2" cy="230.2" r="0.5" fill="#fff" opacity="0.16" style="animation:tw 3.1s ease-in-out 1.6s infinite"/>
+    <circle cx="301.5" cy="287.1" r="0.5" fill="#fff" opacity="0.3" style="animation:tw 3.9s ease-in-out 5.6s infinite"/>
+    <circle cx="860.8" cy="148.8" r="1.1" fill="#fff" opacity="0.27" style="animation:tw 3.0s ease-in-out 4.2s infinite"/>
+    <circle cx="447.4" cy="295.3" r="0.7" fill="#fff" opacity="0.18" style="animation:tw 5.7s ease-in-out 2.1s infinite"/>
+    <circle cx="578.8" cy="284.2" r="0.9" fill="#fff" opacity="0.35" style="animation:tw 3.7s ease-in-out 1.8s infinite"/>
+    <circle cx="741.7" cy="34.0" r="0.5" fill="#fff" opacity="0.18" style="animation:tw 4.3s ease-in-out 2.6s infinite"/>
+    <circle cx="787.0" cy="254.2" r="0.7" fill="#fff" opacity="0.53" style="animation:tw 7.9s ease-in-out 4.9s infinite"/>
+    <circle cx="949.2" cy="249.6" r="0.9" fill="#fff" opacity="0.39" style="animation:tw 5.4s ease-in-out 4.3s infinite"/>
+    <circle cx="444.2" cy="62.4" r="1.1" fill="#fff" opacity="0.4" style="animation:tw 4.4s ease-in-out 2.8s infinite"/>
+    <circle cx="947.3" cy="228.4" r="1.1" fill="#fff" opacity="0.32" style="animation:tw 4.8s ease-in-out 4.6s infinite"/>
+    <circle cx="994.8" cy="18.9" r="0.5" fill="#fff" opacity="0.19" style="animation:tw 5.9s ease-in-out 5.7s infinite"/>
+    <circle cx="611.1" cy="120.8" r="0.9" fill="#fff" opacity="0.14" style="animation:tw 3.2s ease-in-out 0.4s infinite"/>
+    <circle cx="569.8" cy="31.3" r="0.9" fill="#fff" opacity="0.5" style="animation:tw 7.9s ease-in-out 5.7s infinite"/>
+    <circle cx="382.4" cy="138.9" r="1.1" fill="#fff" opacity="0.46" style="animation:tw 6.7s ease-in-out 5.4s infinite"/>
+    <circle cx="130.4" cy="98.3" r="0.5" fill="#fff" opacity="0.52" style="animation:tw 4.5s ease-in-out 5.7s infinite"/>
+    <circle cx="639.8" cy="194.6" r="0.9" fill="#fff" opacity="0.25" style="animation:tw 6.7s ease-in-out 0.4s infinite"/>
+    <circle cx="480.9" cy="203.7" r="0.7" fill="#fff" opacity="0.43" style="animation:tw 4.7s ease-in-out 3.9s infinite"/>
+    <circle cx="674.4" cy="194.6" r="0.5" fill="#fff" opacity="0.24" style="animation:tw 4.8s ease-in-out 2.4s infinite"/>
+    <circle cx="690.7" cy="144.4" r="0.9" fill="#fff" opacity="0.42" style="animation:tw 4.4s ease-in-out 5.0s infinite"/>
+    <circle cx="992.7" cy="210.2" r="0.7" fill="#fff" opacity="0.39" style="animation:tw 7.2s ease-in-out 0.4s infinite"/>
+    <circle cx="1126.3" cy="14.4" r="0.5" fill="#fff" opacity="0.33" style="animation:tw 7.5s ease-in-out 0.9s infinite"/>
+    <circle cx="921.6" cy="185.3" r="0.7" fill="#fff" opacity="0.25" style="animation:tw 5.4s ease-in-out 6.0s infinite"/>
+    <circle cx="227.1" cy="138.4" r="0.9" fill="#fff" opacity="0.48" style="animation:tw 6.3s ease-in-out 5.8s infinite"/>
+  </g>
+  <rect class="scan" x="0" y="0" width="1200" height="60" fill="url(#scan)"/>
+
+  <g stroke="#5EEAD4" stroke-opacity="0.45" stroke-width="1.5" fill="none">
+    <path d="M24 46 H70 M24 46 V92"/>
+    <path d="M1176 46 H1130 M1176 46 V92"/>
+    <path d="M24 294 H70 M24 294 V248"/>
+    <path d="M1176 294 H1130 M1176 294 V248"/>
+  </g>
+  <rect x="46" y="92" width="22" height="2" fill="#7C9CFF" opacity="0.49"/>
+    <rect x="46" y="105" width="16" height="2" fill="#7C9CFF" opacity="0.53"/>
+    <rect x="46" y="118" width="22" height="2" fill="#7C9CFF" opacity="0.39"/>
+    <rect x="46" y="131" width="10" height="2" fill="#7C9CFF" opacity="0.31"/>
+    <rect x="46" y="144" width="22" height="2" fill="#7C9CFF" opacity="0.33"/>
+    <rect x="46" y="157" width="22" height="2" fill="#7C9CFF" opacity="0.45"/>
+    <rect x="46" y="170" width="28" height="2" fill="#7C9CFF" opacity="0.54"/>
+    <rect x="46" y="183" width="10" height="2" fill="#7C9CFF" opacity="0.39"/>
+    <rect x="46" y="196" width="10" height="2" fill="#7C9CFF" opacity="0.25"/>
+
+  <g opacity="0.85" fill="none">
+    <circle cx="1058" cy="168" r="70" stroke="#5EEAD4" stroke-opacity="0.18" stroke-width="1"/>
+    <g class="r1">
+      <circle cx="1058" cy="168" r="70" stroke="#5EEAD4" stroke-opacity="0.7" stroke-width="1.6" stroke-dasharray="30 180"/>
+      <circle cx="1128" cy="168" r="3.5" fill="#5EEAD4" filter="url(#glow)"/>
+    </g>
+    <g class="r2">
+      <circle cx="1058" cy="168" r="46" stroke="#7C9CFF" stroke-opacity="0.6" stroke-width="1.4" stroke-dasharray="14 60"/>
+      <circle cx="1012" cy="168" r="2.8" fill="#7C9CFF"/>
+    </g>
+    <circle cx="1058" cy="168" r="16" fill="#5EEAD4" fill-opacity="0.10" stroke="#5EEAD4" stroke-opacity="0.4"/>
+    <circle cx="1058" cy="168" r="3" fill="#5EEAD4"/>
+  </g>
+
+  <text class="f1" x="92" y="118" font-size="13" letter-spacing="5" fill="#5A6B87">PROFILE</text>
+  <text class="f2" x="90" y="182" font-size="62" font-weight="bold" letter-spacing="9" fill="#C8D4E6">NAGA-T</text>
+  <text class="f2" x="90" y="182" font-size="62" font-weight="bold" letter-spacing="9" fill="#5EEAD4" opacity="0.35" filter="url(#glow)">NAGA-T</text>
+  <text class="cur" x="367" y="182" font-size="62" font-weight="bold" fill="#5EEAD4">_</text>
+
+  <rect class="rule" x="92" y="206" width="640" height="2" fill="url(#rule)"/>
+
+  <text class="f3" x="92" y="240" font-size="16" letter-spacing="2.5" fill="#5EEAD4">NLP  ·  GENERATIVE AI  ·  WEB APPLICATION</text>
+  <text class="f3" x="92" y="266" font-size="13" letter-spacing="2" fill="#5A6B87">UNIVERSITY OF THE RYUKYUS — OKINAWA, JP</text>
+
+  <rect x="40" y="276.4" width="6" height="23.6" fill="#5EEAD4" opacity="0.5" style="transform-origin:43px 300px;animation:eq 1.94s ease-in-out 0.0s infinite"/>
+    <rect x="58" y="284.7" width="6" height="15.3" fill="#5EEAD4" opacity="0.5" style="transform-origin:61px 300px;animation:eq 2.19s ease-in-out 0.045s infinite"/>
+    <rect x="76" y="279.8" width="6" height="20.2" fill="#5EEAD4" opacity="0.5" style="transform-origin:79px 300px;animation:eq 2.25s ease-in-out 0.09s infinite"/>
+    <rect x="94" y="296.0" width="6" height="4.0" fill="#5EEAD4" opacity="0.5" style="transform-origin:97px 300px;animation:eq 2.31s ease-in-out 0.135s infinite"/>
+    <rect x="112" y="295.1" width="6" height="4.9" fill="#5EEAD4" opacity="0.5" style="transform-origin:115px 300px;animation:eq 2.14s ease-in-out 0.18s infinite"/>
+    <rect x="130" y="282.3" width="6" height="17.7" fill="#5EEAD4" opacity="0.5" style="transform-origin:133px 300px;animation:eq 2.17s ease-in-out 0.225s infinite"/>
+    <rect x="148" y="280.3" width="6" height="19.7" fill="#5EEAD4" opacity="0.5" style="transform-origin:151px 300px;animation:eq 2.77s ease-in-out 0.27s infinite"/>
+    <rect x="166" y="290.6" width="6" height="9.4" fill="#5EEAD4" opacity="0.5" style="transform-origin:169px 300px;animation:eq 2.45s ease-in-out 0.315s infinite"/>
+    <rect x="184" y="292.9" width="6" height="7.1" fill="#5EEAD4" opacity="0.5" style="transform-origin:187px 300px;animation:eq 1.99s ease-in-out 0.36s infinite"/>
+    <rect x="202" y="294.4" width="6" height="5.6" fill="#5EEAD4" opacity="0.5" style="transform-origin:205px 300px;animation:eq 1.84s ease-in-out 0.405s infinite"/>
+    <rect x="220" y="285.0" width="6" height="15.0" fill="#5EEAD4" opacity="0.5" style="transform-origin:223px 300px;animation:eq 1.71s ease-in-out 0.45s infinite"/>
+    <rect x="238" y="288.8" width="6" height="11.2" fill="#5EEAD4" opacity="0.5" style="transform-origin:241px 300px;animation:eq 2.54s ease-in-out 0.495s infinite"/>
+    <rect x="256" y="289.7" width="6" height="10.3" fill="#5EEAD4" opacity="0.5" style="transform-origin:259px 300px;animation:eq 2.3s ease-in-out 0.54s infinite"/>
+    <rect x="274" y="278.8" width="6" height="21.2" fill="#5EEAD4" opacity="0.5" style="transform-origin:277px 300px;animation:eq 1.87s ease-in-out 0.585s infinite"/>
+    <rect x="292" y="294.2" width="6" height="5.8" fill="#5EEAD4" opacity="0.5" style="transform-origin:295px 300px;animation:eq 2.32s ease-in-out 0.63s infinite"/>
+    <rect x="310" y="294.5" width="6" height="5.5" fill="#5EEAD4" opacity="0.5" style="transform-origin:313px 300px;animation:eq 2.48s ease-in-out 0.675s infinite"/>
+    <rect x="328" y="294.3" width="6" height="5.7" fill="#5EEAD4" opacity="0.5" style="transform-origin:331px 300px;animation:eq 2.74s ease-in-out 0.72s infinite"/>
+    <rect x="346" y="277.2" width="6" height="22.8" fill="#5EEAD4" opacity="0.5" style="transform-origin:349px 300px;animation:eq 1.71s ease-in-out 0.765s infinite"/>
+    <rect x="364" y="293.4" width="6" height="6.6" fill="#5EEAD4" opacity="0.5" style="transform-origin:367px 300px;animation:eq 2.0s ease-in-out 0.81s infinite"/>
+    <rect x="382" y="279.6" width="6" height="20.4" fill="#5EEAD4" opacity="0.5" style="transform-origin:385px 300px;animation:eq 1.82s ease-in-out 0.855s infinite"/>
+    <rect x="400" y="287.0" width="6" height="13.0" fill="#5EEAD4" opacity="0.5" style="transform-origin:403px 300px;animation:eq 1.98s ease-in-out 0.9s infinite"/>
+    <rect x="418" y="294.3" width="6" height="5.7" fill="#5EEAD4" opacity="0.5" style="transform-origin:421px 300px;animation:eq 2.6s ease-in-out 0.945s infinite"/>
+    <rect x="436" y="294.8" width="6" height="5.2" fill="#5EEAD4" opacity="0.5" style="transform-origin:439px 300px;animation:eq 2.35s ease-in-out 0.99s infinite"/>
+    <rect x="454" y="282.6" width="6" height="17.4" fill="#5EEAD4" opacity="0.5" style="transform-origin:457px 300px;animation:eq 1.69s ease-in-out 1.035s infinite"/>
+    <rect x="472" y="275.5" width="6" height="24.5" fill="#5EEAD4" opacity="0.5" style="transform-origin:475px 300px;animation:eq 2.07s ease-in-out 1.08s infinite"/>
+    <rect x="490" y="293.3" width="6" height="6.7" fill="#5EEAD4" opacity="0.5" style="transform-origin:493px 300px;animation:eq 2.79s ease-in-out 1.125s infinite"/>
+    <rect x="508" y="295.5" width="6" height="4.5" fill="#5EEAD4" opacity="0.5" style="transform-origin:511px 300px;animation:eq 2.1s ease-in-out 1.17s infinite"/>
+    <rect x="526" y="292.3" width="6" height="7.7" fill="#5EEAD4" opacity="0.5" style="transform-origin:529px 300px;animation:eq 2.21s ease-in-out 1.215s infinite"/>
+    <rect x="544" y="283.0" width="6" height="17.0" fill="#5EEAD4" opacity="0.5" style="transform-origin:547px 300px;animation:eq 1.94s ease-in-out 1.26s infinite"/>
+    <rect x="562" y="282.7" width="6" height="17.3" fill="#5EEAD4" opacity="0.5" style="transform-origin:565px 300px;animation:eq 1.76s ease-in-out 1.305s infinite"/>
+    <rect x="580" y="290.1" width="6" height="9.9" fill="#5EEAD4" opacity="0.5" style="transform-origin:583px 300px;animation:eq 2.6s ease-in-out 1.35s infinite"/>
+    <rect x="598" y="292.3" width="6" height="7.7" fill="#5EEAD4" opacity="0.5" style="transform-origin:601px 300px;animation:eq 2.4s ease-in-out 1.395s infinite"/>
+    <rect x="616" y="275.3" width="6" height="24.7" fill="#5EEAD4" opacity="0.5" style="transform-origin:619px 300px;animation:eq 1.94s ease-in-out 1.44s infinite"/>
+    <rect x="634" y="286.3" width="6" height="13.7" fill="#5EEAD4" opacity="0.5" style="transform-origin:637px 300px;animation:eq 2.36s ease-in-out 1.485s infinite"/>
+    <rect x="652" y="288.2" width="6" height="11.8" fill="#5EEAD4" opacity="0.5" style="transform-origin:655px 300px;animation:eq 2.55s ease-in-out 1.53s infinite"/>
+    <rect x="670" y="291.3" width="6" height="8.7" fill="#5EEAD4" opacity="0.5" style="transform-origin:673px 300px;animation:eq 2.4s ease-in-out 1.575s infinite"/>
+    <rect x="688" y="278.0" width="6" height="22.0" fill="#5EEAD4" opacity="0.5" style="transform-origin:691px 300px;animation:eq 2.51s ease-in-out 1.62s infinite"/>
+    <rect x="706" y="284.1" width="6" height="15.9" fill="#5EEAD4" opacity="0.5" style="transform-origin:709px 300px;animation:eq 2.66s ease-in-out 1.665s infinite"/>
+    <rect x="724" y="285.9" width="6" height="14.1" fill="#5EEAD4" opacity="0.5" style="transform-origin:727px 300px;animation:eq 2.33s ease-in-out 1.71s infinite"/>
+    <rect x="742" y="278.0" width="6" height="22.0" fill="#5EEAD4" opacity="0.5" style="transform-origin:745px 300px;animation:eq 2.52s ease-in-out 1.755s infinite"/>
+    <rect x="760" y="285.0" width="6" height="15.0" fill="#5EEAD4" opacity="0.5" style="transform-origin:763px 300px;animation:eq 2.39s ease-in-out 1.8s infinite"/>
+    <rect x="778" y="280.2" width="6" height="19.8" fill="#5EEAD4" opacity="0.5" style="transform-origin:781px 300px;animation:eq 2.33s ease-in-out 1.845s infinite"/>
+    <rect x="796" y="285.4" width="6" height="14.6" fill="#5EEAD4" opacity="0.5" style="transform-origin:799px 300px;animation:eq 2.35s ease-in-out 1.89s infinite"/>
+    <rect x="814" y="280.9" width="6" height="19.1" fill="#5EEAD4" opacity="0.5" style="transform-origin:817px 300px;animation:eq 2.43s ease-in-out 1.935s infinite"/>
+    <rect x="832" y="294.7" width="6" height="5.3" fill="#5EEAD4" opacity="0.5" style="transform-origin:835px 300px;animation:eq 1.82s ease-in-out 1.98s infinite"/>
+    <rect x="850" y="282.5" width="6" height="17.5" fill="#5EEAD4" opacity="0.5" style="transform-origin:853px 300px;animation:eq 2.21s ease-in-out 2.025s infinite"/>
+    <rect x="868" y="276.6" width="6" height="23.4" fill="#5EEAD4" opacity="0.5" style="transform-origin:871px 300px;animation:eq 1.67s ease-in-out 2.07s infinite"/>
+    <rect x="886" y="278.5" width="6" height="21.5" fill="#5EEAD4" opacity="0.5" style="transform-origin:889px 300px;animation:eq 1.79s ease-in-out 2.115s infinite"/>
+    <rect x="904" y="295.9" width="6" height="4.1" fill="#5EEAD4" opacity="0.5" style="transform-origin:907px 300px;animation:eq 2.07s ease-in-out 2.16s infinite"/>
+    <rect x="922" y="287.8" width="6" height="12.2" fill="#5EEAD4" opacity="0.5" style="transform-origin:925px 300px;animation:eq 1.9s ease-in-out 2.205s infinite"/>
+    <rect x="940" y="290.8" width="6" height="9.2" fill="#5EEAD4" opacity="0.5" style="transform-origin:943px 300px;animation:eq 1.74s ease-in-out 2.25s infinite"/>
+    <rect x="958" y="283.7" width="6" height="16.3" fill="#5EEAD4" opacity="0.5" style="transform-origin:961px 300px;animation:eq 2.09s ease-in-out 2.295s infinite"/>
+    <rect x="976" y="275.5" width="6" height="24.5" fill="#5EEAD4" opacity="0.5" style="transform-origin:979px 300px;animation:eq 2.24s ease-in-out 2.34s infinite"/>
+    <rect x="994" y="288.9" width="6" height="11.1" fill="#5EEAD4" opacity="0.5" style="transform-origin:997px 300px;animation:eq 2.09s ease-in-out 2.385s infinite"/>
+    <rect x="1012" y="291.0" width="6" height="9.0" fill="#5EEAD4" opacity="0.5" style="transform-origin:1015px 300px;animation:eq 1.72s ease-in-out 2.43s infinite"/>
+    <rect x="1030" y="290.6" width="6" height="9.4" fill="#5EEAD4" opacity="0.5" style="transform-origin:1033px 300px;animation:eq 2.23s ease-in-out 2.475s infinite"/>
+    <rect x="1048" y="279.9" width="6" height="20.1" fill="#5EEAD4" opacity="0.5" style="transform-origin:1051px 300px;animation:eq 2.68s ease-in-out 2.52s infinite"/>
+    <rect x="1066" y="289.0" width="6" height="11.0" fill="#5EEAD4" opacity="0.5" style="transform-origin:1069px 300px;animation:eq 1.83s ease-in-out 2.565s infinite"/>
+    <rect x="1084" y="292.2" width="6" height="7.8" fill="#5EEAD4" opacity="0.5" style="transform-origin:1087px 300px;animation:eq 2.07s ease-in-out 2.61s infinite"/>
+    <rect x="1102" y="295.0" width="6" height="5.0" fill="#5EEAD4" opacity="0.5" style="transform-origin:1105px 300px;animation:eq 1.9s ease-in-out 2.655s infinite"/>
+    <rect x="1120" y="281.7" width="6" height="18.3" fill="#5EEAD4" opacity="0.5" style="transform-origin:1123px 300px;animation:eq 2.59s ease-in-out 2.7s infinite"/>
+    <rect x="1138" y="287.9" width="6" height="12.1" fill="#5EEAD4" opacity="0.5" style="transform-origin:1141px 300px;animation:eq 2.79s ease-in-out 2.745s infinite"/>
+    <rect x="1156" y="288.7" width="6" height="11.3" fill="#5EEAD4" opacity="0.5" style="transform-origin:1159px 300px;animation:eq 1.64s ease-in-out 2.79s infinite"/>
+    <rect x="1174" y="276.0" width="6" height="24.0" fill="#5EEAD4" opacity="0.5" style="transform-origin:1177px 300px;animation:eq 1.93s ease-in-out 2.835s infinite"/>
+
+  <rect width="1200" height="340" fill="url(#vig)"/>
+</svg>
