@@ -67,8 +67,6 @@
 </table>
 </div>
 
-<img src="./img/assets/divider.svg" width="100%" alt="" />
-
 ## GitHub Stats
 
 <div align="center">
