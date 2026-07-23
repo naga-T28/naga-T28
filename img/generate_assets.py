@@ -43,11 +43,12 @@ CONFIG = {
         "height": 340,
         "eyebrow":  "PROFILE",   # タイトル上の小さい行
         "title":    "NAGA-T",                       # 大見出し
-        "tagline":  "NLP  ·  GENERATIVE AI  ·  WEB APPLICATION",
+        "tagline":  "NLP  ·  WEB APPLICATION",
         "footnote": "UNIVERSITY OF THE RYUKYUS — OKINAWA, JP",
         "show_cursor": True,        # タイトル横の点滅カーソル
         "show_orbit": True,         # 右側の軌道リング
         "show_spectrum": True,      # 下端のスペクトラムバー
+        "show_scan": False,         # 上から下へ流れるスキャンライン
         "star_count": 90,
         "title_font_size": 62,
         "title_letter_spacing": 9,
@@ -204,7 +205,7 @@ def build_hero(cfg):
   <g>
     {stars}
   </g>
-  <rect class="scan" x="0" y="0" width="{W}" height="60" fill="url(#scan)"/>
+  {'<rect class="scan" x="0" y="0" width="' + str(W) + '" height="60" fill="url(#scan)"/>' if h["show_scan"] else ''}
 
   <g stroke="{c["accent"]}" stroke-opacity="0.45" stroke-width="1.5" fill="none">
     <path d="M24 46 H70 M24 46 V92"/>

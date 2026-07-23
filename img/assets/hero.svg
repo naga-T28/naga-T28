@@ -140,7 +140,7 @@
     <circle cx="921.6" cy="185.3" r="0.7" fill="#fff" opacity="0.25" style="animation:tw 5.4s ease-in-out 6.0s infinite"/>
     <circle cx="227.1" cy="138.4" r="0.9" fill="#fff" opacity="0.48" style="animation:tw 6.3s ease-in-out 5.8s infinite"/>
   </g>
-  <rect class="scan" x="0" y="0" width="1200" height="60" fill="url(#scan)"/>
+  
 
   <g stroke="#5EEAD4" stroke-opacity="0.45" stroke-width="1.5" fill="none">
     <path d="M24 46 H70 M24 46 V92"/>
@@ -179,7 +179,7 @@
 
   <rect class="rule" x="92" y="206" width="640" height="2" fill="url(#rule)"/>
 
-  <text class="f3" x="92" y="240" font-size="16" letter-spacing="2.5" fill="#5EEAD4">NLP  ·  GENERATIVE AI  ·  WEB APPLICATION</text>
+  <text class="f3" x="92" y="240" font-size="16" letter-spacing="2.5" fill="#5EEAD4">NLP  ·  WEB APPLICATION</text>
   <text class="f3" x="92" y="266" font-size="13" letter-spacing="2" fill="#5A6B87">UNIVERSITY OF THE RYUKYUS — OKINAWA, JP</text>
 
   <rect x="40" y="276.4" width="6" height="23.6" fill="#5EEAD4" opacity="0.5" style="transform-origin:43px 300px;animation:eq 1.94s ease-in-out 0.0s infinite"/>
