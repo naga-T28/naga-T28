@@ -71,10 +71,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=naga-T28&show_icons=true&hide_title=true&hide_border=true&bg_color=0C1220&title_color=5EEAD4&icon_color=7C9CFF&text_color=C8D4E6&ring_color=5EEAD4" width="49%" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=naga-T28&layout=compact&hide_title=true&hide_border=true&bg_color=0C1220&title_color=5EEAD4&text_color=C8D4E6&langs_count=8" width="42%" alt="Top Languages" />
 
-<br/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=naga-T28&hide_border=true&background=0C1220&stroke=5EEAD4&ring=5EEAD4&fire=7C9CFF&currStreakLabel=5EEAD4&sideLabels=C8D4E6&currStreakNum=C8D4E6&sideNums=C8D4E6&dates=5A6B87&card_width=700&date_format=M%20j" width="90%" alt="GitHub Streak" />
 
