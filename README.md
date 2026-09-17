@@ -15,7 +15,7 @@
 - 研究テーマ：**コールセンター応対品質の自動評価**（NLP / LLM の実応用）
 - 興味分野：自然言語処理・生成AI・Webアプリケーション開発
 
-## 受賞歴
+## Award history
 
 - GIANT LEAP for TECH 〜3days Hackathon〜 : 3位
 - AI爆速アプリコンテスト : ローカル部門部門賞
