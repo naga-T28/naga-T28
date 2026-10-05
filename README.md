@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-naga--t.jp-5EEAD4?style=for-the-badge&logo=googlechrome&logoColor=5EEAD4&labelColor=0C1220&color=0C1220)](https://naga-t.jp)
+
 [![TabiSync](https://img.shields.io/badge/TABISYNC-tabisync.com-7C9CFF?style=for-the-badge&logo=googleearth&logoColor=7C9CFF&labelColor=0C1220&color=0C1220)](https://tabisync.com)
 
 </div>
